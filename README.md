@@ -6,7 +6,7 @@ creates node js mvc secure app
 Hello from Express template ... 
 ===============================
 
-this template is created by [![github icon]
+this template is created by 
 abdoseadaa](https://github.com/abdoseadaa)
 
 
