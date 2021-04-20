@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= msg %> |
+            <%= code %>
+    </title>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    a {
+        display: block;
+        width: fit-content;
+        margin: 30px auto;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    a:hover {
+        transform: scale(.98);
+    }
+</style>
+
+<body>
+    <h1>
+        <center style="font-size: 10rem;">
+            <%= code %>
+        </center>
+    </h1>
+    <center style="color: white; background-color: #f009; padding: 10px 40px; width: fit-content; border-radius: 3px; margin: 50px auto;">
+        <%= msg %>
+    </center>
+    <a href="/">back to home page</a>
+</body>
+
+</html>
